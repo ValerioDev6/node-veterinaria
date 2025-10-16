@@ -1,0 +1,81 @@
+{"context":"VeterinarioService","level":"error","message":"Error al obtener veterinario: Veterinario con ID 2f439798-31d7-4572-8e2a-dbace1b8b66 no encontrado","timestamp":"2025-10-07T19:56:16.901Z"}
+{"context":"VeterinarioService","level":"error","message":"Error al obtener veterinario: Veterinario con ID 2f439798-31d7-4572-8e2a-dbace1b8b6 no encontrado","timestamp":"2025-10-07T19:56:23.566Z"}
+{"context":"VeterinarioService","level":"error","message":"Error al obtener veterinario: Veterinario con ID 2f439798-31d7-4572-8e2a-dbace1b8b66bç no encontrado","timestamp":"2025-10-07T19:56:41.555Z"}
+{"context":"VeterinarioService","level":"error","message":"Error al obtener veterinario: Veterinario con ID 2f439798-31d7-4572-8e2a-dbace1b8b66b no encontrado","timestamp":"2025-10-07T19:56:44.979Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 31ms","timestamp":"2025-10-07T21:49:19.097Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 39ms","timestamp":"2025-10-07T21:51:28.193Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 12ms","timestamp":"2025-10-07T21:51:37.864Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 53ms","timestamp":"2025-10-07T21:58:31.301Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 5ms","timestamp":"2025-10-07T21:58:35.478Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 4ms","timestamp":"2025-10-07T22:02:13.746Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 4ms","timestamp":"2025-10-07T22:03:59.173Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 5ms","timestamp":"2025-10-07T22:12:03.393Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 2ms","timestamp":"2025-10-07T22:12:24.437Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 4ms","timestamp":"2025-10-07T22:22:20.291Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 11ms","timestamp":"2025-10-07T22:24:24.332Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 4ms","timestamp":"2025-10-07T22:24:29.968Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 29ms","timestamp":"2025-10-07T22:24:50.618Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 6ms","timestamp":"2025-10-07T22:24:54.070Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 9ms","timestamp":"2025-10-07T22:27:57.413Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 52ms","timestamp":"2025-10-07T22:31:26.924Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 7ms","timestamp":"2025-10-07T22:33:04.931Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 30ms","timestamp":"2025-10-07T22:34:44.256Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 13ms","timestamp":"2025-10-07T22:34:50.324Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 12ms","timestamp":"2025-10-07T22:37:57.296Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 3ms","timestamp":"2025-10-07T22:38:02.116Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 5ms","timestamp":"2025-10-07T22:38:09.025Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 17ms","timestamp":"2025-10-07T22:38:34.306Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 10ms","timestamp":"2025-10-07T22:38:39.978Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 11ms","timestamp":"2025-10-07T22:38:48.315Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 10ms","timestamp":"2025-10-07T22:38:52.034Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 4ms","timestamp":"2025-10-07T22:43:11.909Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 8ms","timestamp":"2025-10-07T22:43:21.312Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 3ms","timestamp":"2025-10-07T22:43:22.987Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 2ms","timestamp":"2025-10-07T22:43:55.769Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes?page=1&limit=10&search= 500 144bytes - 2ms","timestamp":"2025-10-07T22:44:12.292Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 14ms","timestamp":"2025-10-07T22:58:28.758Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T22:58:38.535Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 13ms","timestamp":"2025-10-07T23:01:35.685Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 13ms","timestamp":"2025-10-07T23:07:46.856Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 4ms","timestamp":"2025-10-07T23:09:02.009Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:09:48.255Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 11ms","timestamp":"2025-10-07T23:10:36.944Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:11:09.469Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 12ms","timestamp":"2025-10-07T23:13:33.413Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 13ms","timestamp":"2025-10-07T23:18:53.807Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 2ms","timestamp":"2025-10-07T23:18:56.551Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 2ms","timestamp":"2025-10-07T23:18:57.215Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 6ms","timestamp":"2025-10-07T23:18:57.636Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 2ms","timestamp":"2025-10-07T23:18:57.815Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 2ms","timestamp":"2025-10-07T23:18:57.995Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:18:58.216Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 2ms","timestamp":"2025-10-07T23:18:58.417Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:18:58.603Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 2ms","timestamp":"2025-10-07T23:18:58.791Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:18:59.000Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 1ms","timestamp":"2025-10-07T23:18:59.191Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 1ms","timestamp":"2025-10-07T23:18:59.407Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 1ms","timestamp":"2025-10-07T23:18:59.606Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 7ms","timestamp":"2025-10-07T23:22:48.393Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 6ms","timestamp":"2025-10-07T23:23:05.207Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 33bytes - 20ms","timestamp":"2025-10-07T23:24:36.168Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 33bytes - 6ms","timestamp":"2025-10-07T23:24:47.344Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 33bytes - 28ms","timestamp":"2025-10-07T23:27:49.950Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 33bytes - 12ms","timestamp":"2025-10-07T23:27:51.891Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 12ms","timestamp":"2025-10-07T23:33:38.101Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:34:07.231Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:34:09.135Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 38bytes - 3ms","timestamp":"2025-10-07T23:34:10.191Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 33bytes - 19ms","timestamp":"2025-10-07T23:43:49.651Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 33bytes - 17ms","timestamp":"2025-10-07T23:44:00.858Z"}
+{"context":"PacienteService","level":"error","message":"❌ ERROR EN createPatient:","timestamp":"2025-10-07T23:52:28.718Z"}
+{"context":"PacienteService","level":"error","message":"Mensaje:","stack":"ER_NO_DEFAULT_FOR_FIELD: Field 'owner_id' doesn't have a default value","timestamp":"2025-10-07T23:52:28.720Z"}
+{"context":"PacienteService","level":"error","message":"Stack:","stack":"QueryFailedError: ER_NO_DEFAULT_FOR_FIELD: Field 'owner_id' doesn't have a default value\n    at Query.<anonymous> (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/typeorm@0.3.21_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.13.9_typescript@5.8.2_/node_modules/typeorm/driver/src/driver/mysql/MysqlQueryRunner.ts:246:33)\n    at Query.<anonymous> (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/Connection.js:526:10)\n    at Query._callback (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/Connection.js:488:16)\n    at Sequence.end (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)\n    at Query.ErrorPacket (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)\n    at Protocol._parsePacket (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/protocol/Protocol.js:291:23)\n    at Parser._parsePacket (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/protocol/Parser.js:433:10)\n    at Parser.write (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/protocol/Parser.js:43:10)\n    at Protocol.write (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/protocol/Protocol.js:38:16)\n    at Socket.<anonymous> (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/mysql@2.18.1/node_modules/mysql/lib/Connection.js:88:28)","timestamp":"2025-10-07T23:52:28.722Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 107bytes - 1155ms","timestamp":"2025-10-07T23:52:28.737Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes/1 500 108bytes - 32ms","timestamp":"2025-10-08T00:58:05.809Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes/1 500 66bytes - 17ms","timestamp":"2025-10-08T00:58:29.561Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes/1 500 66bytes - 4ms","timestamp":"2025-10-08T00:58:30.702Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/pacientes/1 500 96bytes - 61ms","timestamp":"2025-10-08T02:26:28.873Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas?page=1&limit=10&petName=&species= 500 47bytes - 3ms","timestamp":"2025-10-08T02:37:53.682Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes/registrar 500 104bytes - 26ms","timestamp":"2025-10-08T02:42:36.751Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/pacientes/registrar 500 104bytes - 19ms","timestamp":"2025-10-08T02:48:30.320Z"}

@@ -1,0 +1,5 @@
+{
+  "a-file-icon-vscode.activeIconPacks": ["angular2", "ngrx", "nest"],
+  "a-file-icon-vscode.opacity": 0.7,
+  "a-file-icon-vscode.folderTheme": "none"
+}

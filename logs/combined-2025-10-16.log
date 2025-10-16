@@ -1,0 +1,925 @@
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T19:35:18.661Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T19:35:18.901Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T19:35:18.905Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T19:35:18.906Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T19:35:18.906Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T19:35:18.907Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:35:55.714Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 10ms","timestamp":"2025-10-16T19:35:55.725Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:35:55.728Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 4ms","timestamp":"2025-10-16T19:35:55.734Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:36:05.272Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login 200 933bytes - 199ms","timestamp":"2025-10-16T19:36:05.472Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:36:05.713Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 39ms","timestamp":"2025-10-16T19:36:05.753Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:38:44.622Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:38:44.636Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 40ms","timestamp":"2025-10-16T19:38:44.665Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 51ms","timestamp":"2025-10-16T19:38:44.688Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:38:45.969Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:38:45.984Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 37ms","timestamp":"2025-10-16T19:38:46.007Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 32ms","timestamp":"2025-10-16T19:38:46.017Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:39:01.192Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:39:01.205Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 29ms","timestamp":"2025-10-16T19:39:01.223Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 26ms","timestamp":"2025-10-16T19:39:01.232Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:39:01.936Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 304 0bytes - 17ms","timestamp":"2025-10-16T19:39:01.955Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:39:01.956Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 24ms","timestamp":"2025-10-16T19:39:01.981Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:39:09.639Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T19:39:09.642Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 25ms","timestamp":"2025-10-16T19:39:09.664Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 30ms","timestamp":"2025-10-16T19:39:09.672Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:37:57.508Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:37:57.533Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 49ms","timestamp":"2025-10-16T20:37:57.558Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 41ms","timestamp":"2025-10-16T20:37:57.575Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:37:58.413Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 15ms","timestamp":"2025-10-16T20:37:58.431Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:37:58.433Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 13ms","timestamp":"2025-10-16T20:37:58.447Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:26.172Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 12ms","timestamp":"2025-10-16T20:49:26.184Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles/5bb622b5-8ec6-48a3-b5f3-60e5538aa517 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:28.438Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles/5bb622b5-8ec6-48a3-b5f3-60e5538aa517 304 0bytes - 6ms","timestamp":"2025-10-16T20:49:28.445Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/staff?page=1&limit=10&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:31.128Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/staff/combo - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:31.135Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/staff/combo 304 0bytes - 7ms","timestamp":"2025-10-16T20:49:31.144Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/staff?page=1&limit=10&search= 304 0bytes - 27ms","timestamp":"2025-10-16T20:49:31.156Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/pacientes?page=1&limit=10&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:33.555Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/pacientes?page=1&limit=10&search= 304 0bytes - 5ms","timestamp":"2025-10-16T20:49:33.561Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/veterinario?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:35.006Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/veterinario/config - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:35.008Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/veterinario/config 304 0bytes - 8ms","timestamp":"2025-10-16T20:49:35.017Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/veterinario?page=1&limit=5&search= 304 0bytes - 15ms","timestamp":"2025-10-16T20:49:35.021Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:41.468Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:41.471Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 2ms","timestamp":"2025-10-16T20:49:41.474Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 10ms","timestamp":"2025-10-16T20:49:41.479Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:43.524Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 15ms","timestamp":"2025-10-16T20:49:43.539Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/pagos?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:45.088Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/pagos?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 16ms","timestamp":"2025-10-16T20:49:45.104Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/vacunas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:48.909Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/vacunas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 8ms","timestamp":"2025-10-16T20:49:48.917Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/cirujias?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T20:49:51.728Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/cirujias?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 84bytes - 5ms","timestamp":"2025-10-16T20:49:51.735Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:03:32.353Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:03:32.359Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 18ms","timestamp":"2025-10-16T21:03:32.372Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 26ms","timestamp":"2025-10-16T21:03:32.386Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:03:32.438Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 304 0bytes - 12ms","timestamp":"2025-10-16T21:03:32.450Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:09:21.827Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:09:21.959Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:09:21.963Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:09:21.964Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:09:21.964Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:09:21.965Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:09:46.039Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:09:46.153Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:09:46.156Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:09:46.157Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:09:46.157Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:09:46.157Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:10:33.996Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 40ms","timestamp":"2025-10-16T21:10:34.037Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:10:34.109Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 7ms","timestamp":"2025-10-16T21:10:34.117Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:10:45.347Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:10:45.487Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:10:45.490Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:10:45.491Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:10:45.491Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:10:45.492Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:11:00.510Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:11:09.140Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:11:09.268Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:11:09.271Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:11:09.272Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:11:09.273Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:11:09.273Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:11:15.757Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:11:15.872Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:11:15.875Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:11:15.875Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:11:15.876Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:11:15.876Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:18.191Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 18ms","timestamp":"2025-10-16T21:11:18.210Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:18.231Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T21:11:18.236Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:11:40.556Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:11:40.681Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:11:40.683Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:11:40.684Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:11:40.685Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:11:40.685Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:11:49.827Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:11:49.987Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:11:49.989Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:11:49.990Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:11:49.991Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:11:49.991Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:50.335Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 26ms","timestamp":"2025-10-16T21:11:50.362Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:50.409Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T21:11:50.421Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:50.617Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:11:50.620Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:50.654Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:11:50.656Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:51.134Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:11:51.137Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:51.171Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:11:51.173Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:51.554Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:11:51.557Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:51.602Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:11:51.604Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:51.800Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:11:51.804Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:51.821Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:11:51.823Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:52.086Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:11:52.089Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:11:52.119Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:11:52.121Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:08.020Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:08.146Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:08.149Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:08.150Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:08.150Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:08.151Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:10.781Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:10.904Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:10.907Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:10.908Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:10.908Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:10.909Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:25.506Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:25.635Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:25.638Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:25.639Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:25.639Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:25.640Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:31.340Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:31.453Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:31.455Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:31.456Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:31.456Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:31.457Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:32.496Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 20ms","timestamp":"2025-10-16T21:12:32.517Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:32.556Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T21:12:32.563Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:44.951Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:45.070Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:45.072Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:45.073Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:45.073Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:45.074Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:47.232Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:49.092Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:49.255Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:49.257Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:49.265Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:49.266Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:49.266Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:12:52.270Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:12:52.397Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:12:52.400Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:12:52.401Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:12:52.402Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:12:52.402Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:54.060Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 21ms","timestamp":"2025-10-16T21:12:54.082Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:54.108Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T21:12:54.113Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:54.945Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 7ms","timestamp":"2025-10-16T21:12:54.953Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:54.980Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T21:12:54.987Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:55.441Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:12:55.444Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:12:55.475Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:12:55.476Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:19:21.170Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:19:21.294Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:19:21.297Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:19:21.298Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:19:21.298Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:19:21.299Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:19:54.055Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:19:54.188Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:19:54.191Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:19:54.191Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:19:54.192Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:19:54.192Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:19:58.677Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:20:00.579Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:20:01.937Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:20:02.052Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:20:02.054Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:20:02.055Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:20:02.056Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:20:02.056Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:20:10.276Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:20:10.407Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:20:10.410Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:20:10.411Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:20:10.411Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:20:10.412Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:20.128Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 13ms","timestamp":"2025-10-16T21:20:20.142Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:20.176Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T21:20:20.182Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:20.968Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:20:20.971Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:20.995Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:20:20.998Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:21.224Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 4ms","timestamp":"2025-10-16T21:20:21.229Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:21.258Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T21:20:21.262Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:20:29.540Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:20:29.661Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:20:29.664Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:20:29.665Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:20:29.665Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:20:29.666Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:34.827Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 14ms","timestamp":"2025-10-16T21:20:34.842Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:34.865Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T21:20:34.871Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:36.675Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:20:36.679Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:20:36.706Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:20:36.708Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:22:26.530Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:22:26.665Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:22:26.667Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:22:26.668Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:22:26.668Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:22:26.669Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:22:32.712Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:22:32.851Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:22:32.855Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:22:32.855Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:22:32.856Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:22:32.856Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:22:35.375Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:22:35.504Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:22:35.507Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:22:35.508Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:22:35.509Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:22:35.509Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:22:49.439Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:22:49.566Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:22:49.568Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:22:49.569Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:22:49.569Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:22:49.570Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:23:07.457Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:23:07.577Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:23:07.580Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:23:07.580Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:23:07.581Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:23:07.581Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:23:09.977Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:23:10.126Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:23:10.128Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:23:10.129Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:23:10.130Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:23:10.130Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:23:34.948Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:23:35.144Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:23:35.147Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:23:35.148Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:23:35.149Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:23:35.149Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:23:50.068Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:23:50.190Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:23:50.192Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:23:50.193Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:23:50.193Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:23:50.194Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:00.637Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:24:00.792Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:24:00.795Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:24:00.796Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:24:00.797Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:24:00.797Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:04.076Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:24:04.196Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:24:04.198Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:24:04.199Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:24:04.199Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:24:04.200Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:08.426Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:24:08.543Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:24:08.546Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:24:08.546Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:24:08.547Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:24:08.547Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:12.263Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 1bytes - 17ms","timestamp":"2025-10-16T21:24:12.282Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:12.345Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T21:24:12.349Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:48.278Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:24:48.461Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:24:48.464Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:24:48.465Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:24:48.465Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:24:48.466Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:50.910Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:52.754Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:24:52.928Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:24:52.931Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:24:52.932Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:24:52.933Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:24:52.933Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:53.025Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 1bytes - 12ms","timestamp":"2025-10-16T21:24:53.037Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:53.080Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 9ms","timestamp":"2025-10-16T21:24:53.090Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:53.228Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 304 0bytes - 8ms","timestamp":"2025-10-16T21:24:53.236Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:53.279Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T21:24:53.283Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:53.822Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 304 0bytes - 2ms","timestamp":"2025-10-16T21:24:53.825Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:24:53.847Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T21:24:53.850Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:24:57.204Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:24:57.327Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:24:57.330Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:24:57.331Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:24:57.331Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:24:57.332Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:48:49.491Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:48:49.648Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:48:49.652Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:48:49.653Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:48:49.653Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:48:49.654Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:48:51.929Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:48:52.090Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:48:52.094Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:48:52.095Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:48:52.095Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:48:52.096Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:49:02.516Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:49:02.634Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:49:02.636Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:49:02.637Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:49:02.637Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:49:02.638Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:49:04.217Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 1bytes - 12ms","timestamp":"2025-10-16T21:49:04.230Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:49:04.272Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T21:49:04.277Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:49:06.804Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 9ms","timestamp":"2025-10-16T21:49:06.814Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:49:06.863Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T21:49:06.867Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:55:18.330Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:55:18.470Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:55:18.472Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:55:18.473Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:55:18.473Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:55:18.474Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:55:54.859Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:55:55.015Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:55:55.017Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:55:55.018Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:55:55.019Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:55:55.019Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:55.220Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 10ms","timestamp":"2025-10-16T21:55:55.231Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:55.249Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T21:55:55.256Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:55.431Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 5ms","timestamp":"2025-10-16T21:55:55.436Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:55.451Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T21:55:55.454Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:55.628Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:55:55.631Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:55.658Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T21:55:55.660Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:56.171Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:55:56.175Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:55:56.197Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:55:56.198Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:09.838Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:57:09.985Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:57:09.989Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:57:09.990Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:57:09.991Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:57:09.991Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:18.339Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:25.399Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:57:25.556Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:57:25.558Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:57:25.559Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:57:25.560Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:57:25.560Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:30.712Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:57:30.875Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:57:30.878Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:57:30.879Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:57:30.879Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:57:30.880Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:41.845Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:53.657Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:57:58.565Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:57:58.713Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:57:58.716Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:57:58.716Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:57:58.717Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:57:58.717Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:58:10.577Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:58:10.727Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:58:10.730Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:58:10.731Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:58:10.731Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:58:10.732Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:16.777Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 18ms","timestamp":"2025-10-16T21:59:16.800Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:16.921Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T21:59:16.931Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:24.165Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:26.166Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:28.207Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:30.180Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:59:30.333Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:59:30.336Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:59:30.337Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:59:30.338Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:59:30.339Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:38.421Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:59:38.633Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:59:38.637Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:59:38.638Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:59:38.639Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:59:38.640Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:38.944Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 13ms","timestamp":"2025-10-16T21:59:38.958Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:38.980Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T21:59:38.986Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:39.309Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 5ms","timestamp":"2025-10-16T21:59:39.315Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:39.377Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:59:39.381Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:39.763Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:59:39.767Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:39.798Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T21:59:39.800Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:39.999Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 2ms","timestamp":"2025-10-16T21:59:40.002Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:40.042Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T21:59:40.046Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:51.742Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:59:52.045Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:59:52.050Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:59:52.051Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:59:52.051Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:59:52.052Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T21:59:54.796Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T21:59:55.026Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T21:59:55.030Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T21:59:55.031Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T21:59:55.031Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T21:59:55.032Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:55.185Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 21ms","timestamp":"2025-10-16T21:59:55.207Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:55.304Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T21:59:55.311Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:55.516Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 4ms","timestamp":"2025-10-16T21:59:55.521Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:55.551Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T21:59:55.554Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.129Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:59:56.132Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.163Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T21:59:56.164Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.527Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:59:56.530Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.560Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:59:56.562Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.761Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:59:56.765Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.784Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:59:56.786Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.966Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T21:59:56.969Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T21:59:56.996Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T21:59:56.998Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:03:19.911Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:03:20.131Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:03:20.140Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:03:20.141Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:03:20.142Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:03:20.145Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:03:25.636Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:03:25.818Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:03:25.822Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:03:25.823Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:03:25.824Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:03:25.825Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:26.316Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 14ms","timestamp":"2025-10-16T22:03:26.330Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:26.365Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 10ms","timestamp":"2025-10-16T22:03:26.376Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:27.184Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T22:03:27.187Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:27.219Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T22:03:27.222Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:27.565Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T22:03:27.568Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:27.603Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T22:03:27.607Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:27.786Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 4ms","timestamp":"2025-10-16T22:03:27.790Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:27.820Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:03:27.821Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:28.000Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T22:03:28.003Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:28.032Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T22:03:28.037Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:28.182Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 3ms","timestamp":"2025-10-16T22:03:28.186Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:28.207Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:03:28.210Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:28.387Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 5ms","timestamp":"2025-10-16T22:03:28.392Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:03:28.417Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:03:28.419Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:06:44.470Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:06:44.651Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:06:44.655Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:06:44.656Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:06:44.656Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:06:44.657Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/ - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:06:50.770Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/ 500 33bytes - 16ms","timestamp":"2025-10-16T22:06:50.786Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:06:50.824Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T22:06:50.828Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:06:56.268Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 304 0bytes - 4ms","timestamp":"2025-10-16T22:06:56.273Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:06:56.324Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:06:56.328Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:06:59.507Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 5ms","timestamp":"2025-10-16T22:06:59.513Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:06:59.572Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T22:06:59.573Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:07:18.345Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:07:18.494Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:07:18.497Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:07:18.498Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:07:18.499Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:07:18.499Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:07:25.077Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:07:25.219Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:07:25.222Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:07:25.223Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:07:25.224Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:07:25.224Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:07:26.694Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 23bytes - 10ms","timestamp":"2025-10-16T22:07:26.707Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:07:26.746Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T22:07:26.752Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:08:00.383Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:08:03.631Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:08:03.797Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:08:03.804Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:08:03.806Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:08:03.812Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:08:03.818Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:08:21.827Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:08:22.143Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:08:22.153Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:08:22.160Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:08:22.161Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:08:22.164Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:08:23.524Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 36bytes - 18ms","timestamp":"2025-10-16T22:08:23.543Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:08:23.644Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 6ms","timestamp":"2025-10-16T22:08:23.654Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:08:51.317Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:08:51.444Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:08:51.447Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:08:51.448Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:08:51.448Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:08:51.449Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:08:52.115Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 12ms","timestamp":"2025-10-16T22:08:52.127Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:08:52.188Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T22:08:52.191Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:08:54.206Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 5ms","timestamp":"2025-10-16T22:08:54.212Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:08:54.228Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:08:54.232Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:09:10.588Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:09:10.865Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:09:10.873Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:09:10.876Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:09:10.877Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:09:10.879Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:09:13.691Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:09:13.849Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:09:13.852Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:09:13.853Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:09:13.853Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:09:13.853Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:16.697Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 14ms","timestamp":"2025-10-16T22:09:16.712Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:16.765Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T22:09:16.771Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:18.186Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:09:18.191Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:18.217Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T22:09:18.220Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:18.721Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:09:18.725Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:18.759Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T22:09:18.762Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:19.178Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 6ms","timestamp":"2025-10-16T22:09:19.185Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:19.207Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:09:19.209Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:09:37.614Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:09:37.822Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:09:37.826Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:09:37.828Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:09:37.829Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:09:37.830Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:38.093Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 12ms","timestamp":"2025-10-16T22:09:38.106Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:38.127Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T22:09:38.132Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:38.765Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:09:38.770Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:38.792Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:09:38.794Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:39.350Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:09:39.354Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:09:39.457Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 12ms","timestamp":"2025-10-16T22:09:39.475Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:10:04.339Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:10:04.502Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:10:04.505Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:10:04.506Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:10:04.506Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:10:04.506Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:08.117Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 14ms","timestamp":"2025-10-16T22:10:08.132Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:08.192Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 8ms","timestamp":"2025-10-16T22:10:08.203Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:08.639Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 5ms","timestamp":"2025-10-16T22:10:08.644Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:08.672Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:08.674Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.072Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:10:09.077Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.095Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T22:10:09.097Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.354Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:10:09.359Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.391Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T22:10:09.393Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.592Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 5ms","timestamp":"2025-10-16T22:10:09.597Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.622Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:09.623Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.803Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 2ms","timestamp":"2025-10-16T22:10:09.807Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:09.825Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:09.826Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.034Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:10.038Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.059Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:10.060Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.268Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:10.271Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.288Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T22:10:10.289Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.518Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:10:10.522Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.536Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:10.537Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.749Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:10.753Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.768Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:10.771Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.957Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:10.960Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:10.974Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:10.976Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.200Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 2ms","timestamp":"2025-10-16T22:10:11.204Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.224Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T22:10:11.226Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.443Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:10:11.448Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.462Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:11.465Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.712Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:11.716Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.740Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:11.742Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.940Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:11.944Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:11.957Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T22:10:11.958Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.186Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 2ms","timestamp":"2025-10-16T22:10:12.189Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.208Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T22:10:12.212Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.417Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:12.421Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.442Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 0ms","timestamp":"2025-10-16T22:10:12.443Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.628Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:12.632Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.658Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:12.659Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.841Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 3ms","timestamp":"2025-10-16T22:10:12.845Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:10:12.870Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:10:12.872Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:11:51.802Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:11:51.965Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:11:51.968Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:11:51.969Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:11:51.969Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:11:51.970Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:11:52.006Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 52bytes - 19ms","timestamp":"2025-10-16T22:11:52.026Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:11:52.152Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T22:11:52.157Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:11:52.343Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 304 0bytes - 9ms","timestamp":"2025-10-16T22:11:52.353Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:11:52.415Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 3ms","timestamp":"2025-10-16T22:11:52.419Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:12:15.800Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:12:16.185Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:12:16.194Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:12:16.196Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:12:16.197Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:12:16.198Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:12:17.326Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 20ms","timestamp":"2025-10-16T22:12:17.346Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:12:17.399Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T22:12:17.405Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:12:19.459Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi 500 33bytes - 4ms","timestamp":"2025-10-16T22:12:19.464Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:12:19.507Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T22:12:19.510Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:13:21.744Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:13:24.150Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:13:24.322Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:13:24.331Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:13:24.332Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:13:24.332Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:13:24.333Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:13:30.505Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:13:34.072Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:13:34.197Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:13:34.200Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:13:34.201Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:13:34.201Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:13:34.201Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:13:49.229Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:13:49.366Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:13:49.369Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:13:49.369Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:13:49.370Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:13:49.370Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:13:50.949Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 15ms","timestamp":"2025-10-16T22:13:50.965Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:13:51.017Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 5ms","timestamp":"2025-10-16T22:13:51.024Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:13:54.239Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:13:54.244Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:13:54.282Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T22:13:54.285Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:22:33.496Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 10ms","timestamp":"2025-10-16T22:22:33.506Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:22:33.548Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:22:33.550Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:22:44.387Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:22:44.512Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:22:44.514Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:22:44.515Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:22:44.516Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:22:44.517Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:22:48.535Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:22:48.687Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:22:48.692Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:22:48.693Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:22:48.694Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:22:48.694Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:22:48.856Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 200 52bytes - 15ms","timestamp":"2025-10-16T22:22:48.872Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:22:48.906Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 6ms","timestamp":"2025-10-16T22:22:48.913Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:22:49.085Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios 304 0bytes - 8ms","timestamp":"2025-10-16T22:22:49.093Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:22:49.124Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 2ms","timestamp":"2025-10-16T22:22:49.127Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:23:33.775Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:23:34.083Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:23:34.086Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:23:34.087Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:23:34.088Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:23:34.088Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:23:39.925Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:23:40.072Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:23:40.075Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:23:40.076Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:23:40.077Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:23:40.077Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:23:54.603Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:23:54.765Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:23:54.768Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:23:54.769Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:23:54.770Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:23:54.771Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:23:59.600Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:23:59.727Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:23:59.730Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:23:59.730Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:23:59.731Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:23:59.731Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:27:36.335Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:27:36.700Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:27:36.716Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:27:36.723Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:27:36.727Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:27:36.729Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:27:55.381Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:27:57.745Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:27:57.886Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:27:57.889Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:27:57.889Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:27:57.890Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:27:57.890Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:28:08.200Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:28:08.342Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:28:08.345Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:28:08.346Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:28:08.346Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:28:08.347Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:08.477Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 15ms","timestamp":"2025-10-16T22:28:08.494Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:08.525Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 4ms","timestamp":"2025-10-16T22:28:08.531Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.204Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 8ms","timestamp":"2025-10-16T22:28:09.213Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.274Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:28:09.276Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.519Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:28:09.523Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.553Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:28:09.555Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.754Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:28:09.759Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.787Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:28:09.788Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/kpi/veterinarios - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:09.986Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/kpi/veterinarios 500 33bytes - 4ms","timestamp":"2025-10-16T22:28:09.990Z"}
+{"context":"HTTP","level":"info","message":"GET /favicon.ico - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-16T22:28:10.036Z"}
+{"context":"HTTP","level":"warn","message":"GET /favicon.ico 404 150bytes - 1ms","timestamp":"2025-10-16T22:28:10.037Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:28:27.327Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:28:27.488Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:28:27.490Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:28:27.491Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:28:27.492Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:28:27.493Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:28:34.599Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:28:34.724Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:28:34.727Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:28:34.727Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:28:34.728Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:28:34.728Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:28:38.248Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:28:38.364Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:28:38.366Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:28:38.367Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:28:38.368Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:28:38.368Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:32:24.647Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:32:24.767Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:32:24.770Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:32:24.770Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:32:24.771Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:32:24.771Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-16T22:33:26.988Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-16T22:33:27.152Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-16T22:33:27.155Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-16T22:33:27.156Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-16T22:33:27.157Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-16T22:33:27.158Z"}

@@ -1,0 +1,3 @@
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 30ms","timestamp":"2025-10-06T16:16:58.420Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 3ms","timestamp":"2025-10-06T16:17:17.149Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/pacientes 500 84bytes - 2ms","timestamp":"2025-10-06T16:22:28.609Z"}

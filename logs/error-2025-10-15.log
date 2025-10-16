@@ -1,0 +1,69 @@
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:54:58.631Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 6ms","timestamp":"2025-10-15T18:54:58.632Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:01.357Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 5ms","timestamp":"2025-10-15T18:55:01.358Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:04.846Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 4ms","timestamp":"2025-10-15T18:55:04.848Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:42.510Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 17ms","timestamp":"2025-10-15T18:55:42.516Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:43.559Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 6ms","timestamp":"2025-10-15T18:55:43.561Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:44.013Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 8ms","timestamp":"2025-10-15T18:55:44.015Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:44.309Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 11ms","timestamp":"2025-10-15T18:55:44.311Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:44.534Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 7ms","timestamp":"2025-10-15T18:55:44.535Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:44.733Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 12ms","timestamp":"2025-10-15T18:55:44.736Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:44.924Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 7ms","timestamp":"2025-10-15T18:55:44.927Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:45.163Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 7ms","timestamp":"2025-10-15T18:55:45.165Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:55:45.366Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/4 500 33bytes - 20ms","timestamp":"2025-10-15T18:55:45.370Z"}
+{"context":"CitasService","level":"error","message":"❌ Error al obtener cita: Cita no encontrada","timestamp":"2025-10-15T18:56:13.296Z"}
+{"context":"HTTP","level":"error","message":"GET /v1/api/citas/1 500 33bytes - 5ms","timestamp":"2025-10-15T18:56:13.297Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 6ms","timestamp":"2025-10-15T20:37:23.522Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 4ms","timestamp":"2025-10-15T20:37:32.933Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 33ms","timestamp":"2025-10-15T20:39:22.195Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 11ms","timestamp":"2025-10-15T20:39:24.931Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 6ms","timestamp":"2025-10-15T20:39:54.778Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:40:43.643Z"}
+{"context":"HTTP","level":"error","message":"DELETE /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 293bytes - 29ms","timestamp":"2025-10-15T20:41:32.850Z"}
+{"context":"HTTP","level":"error","message":"DELETE /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 293bytes - 10ms","timestamp":"2025-10-15T20:41:36.363Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:41:48.664Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 8ms","timestamp":"2025-10-15T20:41:49.339Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 7ms","timestamp":"2025-10-15T20:41:49.538Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:41:49.711Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:41:49.880Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:41:50.037Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 6ms","timestamp":"2025-10-15T20:41:50.238Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:41:58.632Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-15T20:41:59.188Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 8ms","timestamp":"2025-10-15T20:41:59.373Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/23114175-f14c-43d1-87d5-729a484c029e 500 67bytes - 8ms","timestamp":"2025-10-15T21:17:23.905Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/23114175-f14c-43d1-87d5-729a484c029e 500 67bytes - 11ms","timestamp":"2025-10-15T21:17:24.926Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/23114175-f14c-43d1-87d5-729a484c029e 500 67bytes - 8ms","timestamp":"2025-10-15T21:17:24.984Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/23114175-f14c-43d1-87d5-729a484c029e 500 67bytes - 10ms","timestamp":"2025-10-15T21:17:25.277Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/23114175-f14c-43d1-87d5-729a484c029e 500 67bytes - 12ms","timestamp":"2025-10-15T21:17:25.524Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/23114175-f14c-43d1-87d5-729a484c029e 500 67bytes - 10ms","timestamp":"2025-10-15T21:17:33.758Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 7ms","timestamp":"2025-10-15T21:18:12.443Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 12ms","timestamp":"2025-10-16T00:59:34.739Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 11ms","timestamp":"2025-10-16T00:59:40.198Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 9ms","timestamp":"2025-10-16T00:59:53.193Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 6ms","timestamp":"2025-10-16T00:59:54.220Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 11ms","timestamp":"2025-10-16T00:59:54.414Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 12ms","timestamp":"2025-10-16T00:59:54.594Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 14ms","timestamp":"2025-10-16T00:59:54.779Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 10ms","timestamp":"2025-10-16T00:59:54.911Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 7ms","timestamp":"2025-10-16T00:59:55.098Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 8ms","timestamp":"2025-10-16T00:59:55.276Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 6ms","timestamp":"2025-10-16T00:59:55.433Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 9ms","timestamp":"2025-10-16T00:59:55.606Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 7ms","timestamp":"2025-10-16T00:59:55.796Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 9ms","timestamp":"2025-10-16T00:59:55.976Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 10ms","timestamp":"2025-10-16T00:59:56.148Z"}
+{"context":"HTTP","level":"error","message":"PATCH /v1/api/roles/d3a92632-fc23-40ea-a88c-a96e759206b6 500 67bytes - 11ms","timestamp":"2025-10-16T00:59:56.311Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 14ms","timestamp":"2025-10-16T01:04:52.922Z"}
+{"context":"HTTP","level":"error","message":"POST /v1/api/roles 500 62bytes - 5ms","timestamp":"2025-10-16T01:05:08.322Z"}

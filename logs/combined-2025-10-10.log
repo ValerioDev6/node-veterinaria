@@ -1,0 +1,791 @@
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T18:48:50.617Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T18:48:50.787Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T18:48:50.789Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T18:48:50.791Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T18:48:50.792Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T18:48:50.793Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:49:02.744Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 11ms","timestamp":"2025-10-10T18:49:02.758Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:49:02.760Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 7ms","timestamp":"2025-10-10T18:49:02.769Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:49:05.108Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login 200 933bytes - 169ms","timestamp":"2025-10-10T18:49:05.278Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:49:05.320Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T18:49:05.339Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:49:09.776Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1289bytes - 25ms","timestamp":"2025-10-10T18:49:09.802Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:54:59.633Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 43ms","timestamp":"2025-10-10T18:54:59.677Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:54:59.681Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 37ms","timestamp":"2025-10-10T18:54:59.721Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:55:00.074Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 22ms","timestamp":"2025-10-10T18:55:00.098Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:55:02.367Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:55:02.377Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 44ms","timestamp":"2025-10-10T18:55:02.412Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 43ms","timestamp":"2025-10-10T18:55:02.421Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:55:02.651Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 15ms","timestamp":"2025-10-10T18:55:02.667Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:57:03.574Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 22ms","timestamp":"2025-10-10T18:57:03.597Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:57:03.604Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 25ms","timestamp":"2025-10-10T18:57:03.630Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:57:03.889Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 7ms","timestamp":"2025-10-10T18:57:03.897Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:43.865Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:43.870Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 38ms","timestamp":"2025-10-10T18:58:43.903Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 42ms","timestamp":"2025-10-10T18:58:43.913Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:45.441Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 17ms","timestamp":"2025-10-10T18:58:45.458Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:49.192Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:49.202Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 28ms","timestamp":"2025-10-10T18:58:49.223Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 26ms","timestamp":"2025-10-10T18:58:49.229Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:49.800Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 8ms","timestamp":"2025-10-10T18:58:49.808Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:53.520Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:53.529Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 40ms","timestamp":"2025-10-10T18:58:53.563Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 40ms","timestamp":"2025-10-10T18:58:53.570Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:54.118Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 21ms","timestamp":"2025-10-10T18:58:54.141Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:59.180Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:59.187Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 28ms","timestamp":"2025-10-10T18:58:59.208Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 27ms","timestamp":"2025-10-10T18:58:59.214Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T18:58:59.492Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T18:58:59.498Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:18.155Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 200 988bytes - 2ms","timestamp":"2025-10-10T19:00:18.158Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:18.537Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 921bytes - 39ms","timestamp":"2025-10-10T19:00:18.576Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:25.947Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 11ms","timestamp":"2025-10-10T19:00:25.959Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:33.097Z"}
+{"context":"HTTP","level":"warn","message":"PATCH /v1/api/citas/2 404 155bytes - 4ms","timestamp":"2025-10-10T19:00:33.102Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:33.180Z"}
+{"context":"HTTP","level":"warn","message":"PATCH /v1/api/citas/2 404 155bytes - 1ms","timestamp":"2025-10-10T19:00:33.182Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:40.687Z"}
+{"context":"HTTP","level":"warn","message":"PATCH /v1/api/citas/2 404 155bytes - 3ms","timestamp":"2025-10-10T19:00:40.691Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:00:40.793Z"}
+{"context":"HTTP","level":"warn","message":"PATCH /v1/api/citas/2 404 155bytes - 1ms","timestamp":"2025-10-10T19:00:40.796Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:07:18.828Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 23ms","timestamp":"2025-10-10T19:07:18.853Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T19:07:18.948Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 304 0bytes - 16ms","timestamp":"2025-10-10T19:07:18.965Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T19:14:55.597Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T19:14:55.732Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T19:14:55.734Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T19:14:55.735Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T19:14:55.735Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T19:14:55.736Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T19:15:15.422Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T19:15:15.606Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T19:15:15.610Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T19:15:15.611Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T19:15:15.611Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T19:15:15.612Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T19:15:58.993Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T19:15:59.159Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T19:15:59.161Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T19:15:59.163Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T19:15:59.163Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T19:15:59.164Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T19:55:11.834Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T19:55:11.958Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T19:55:11.961Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T19:55:11.962Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T19:55:11.962Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T19:55:11.962Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T19:55:22.916Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T19:55:23.067Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T19:55:23.070Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T19:55:23.072Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T19:55:23.073Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T19:55:23.074Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T19:55:27.799Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T19:55:27.981Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T19:55:27.984Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T19:55:27.985Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T19:55:27.986Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T19:55:27.986Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:03:23.910Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:03:24.092Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:03:24.096Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:03:24.097Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:03:24.097Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:03:24.098Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:03:29.774Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:03:29.920Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:03:29.922Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:03:29.923Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:03:29.923Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:03:29.924Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:03:44.849Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:03:45.094Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:03:45.097Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:03:45.098Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:03:45.098Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:03:45.099Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:03:59.860Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:04:00.017Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:04:00.021Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:04:00.022Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:04:00.023Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:04:00.024Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:04:24.593Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:04:24.759Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:04:24.763Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:04:24.764Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:04:24.765Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:04:24.765Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:08:23.412Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:08:23.585Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:08:23.589Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:08:23.591Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:08:23.592Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:08:23.593Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:08:40.002Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:08:40.199Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:08:40.202Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:08:40.203Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:08:40.204Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:08:40.204Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:08:41.966Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:08:42.092Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:08:42.095Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:08:42.096Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:08:42.096Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:08:42.097Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:08:45.848Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:08:46.013Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:08:46.017Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:08:46.018Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:08:46.019Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:08:46.020Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:02.120Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:09:02.345Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:09:02.349Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:09:02.351Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:09:02.352Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:09:02.353Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:08.290Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:09:08.411Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:09:08.414Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:09:08.415Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:09:08.415Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:09:08.415Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:12.098Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:15.032Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:17.176Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:09:17.378Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:09:17.383Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:09:17.385Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:09:17.386Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:09:17.388Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:32.214Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:33.971Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:09:34.134Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:09:34.137Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:09:34.138Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:09:34.138Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:09:34.139Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:37.627Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:09:37.789Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:09:37.791Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:09:37.793Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:09:37.794Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:09:37.794Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:09:50.100Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:09:50.245Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:09:50.248Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:09:50.249Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:09:50.250Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:09:50.250Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:15:13.414Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 31ms","timestamp":"2025-10-10T20:15:13.446Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:15:27.434Z"}
+{"context":"HTTP","level":"warn","message":"PATCH /v1/api/citas/2 404 155bytes - 13ms","timestamp":"2025-10-10T20:15:27.448Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:15:33.917Z"}
+{"context":"HTTP","level":"warn","message":"PATCH /v1/api/citas/2 404 155bytes - 1ms","timestamp":"2025-10-10T20:15:33.918Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:15:36.429Z"}
+{"context":"HTTP","level":"warn","message":"POST /v1/api/citas/2 404 154bytes - 2ms","timestamp":"2025-10-10T20:15:36.433Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:18.555Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 5ms","timestamp":"2025-10-10T20:16:18.565Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:18.567Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 5ms","timestamp":"2025-10-10T20:16:18.573Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:23.420Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login 200 933bytes - 160ms","timestamp":"2025-10-10T20:16:23.580Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:23.998Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:16:24.018Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:26.119Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 12ms","timestamp":"2025-10-10T20:16:26.132Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:43.398Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/2 200 16bytes - 12ms","timestamp":"2025-10-10T20:16:43.411Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:43.429Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1290bytes - 7ms","timestamp":"2025-10-10T20:16:43.436Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:59.298Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/2 200 16bytes - 12ms","timestamp":"2025-10-10T20:16:59.310Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:16:59.326Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 5ms","timestamp":"2025-10-10T20:16:59.332Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:17:23.227Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:17:23.232Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 25ms","timestamp":"2025-10-10T20:17:23.253Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 27ms","timestamp":"2025-10-10T20:17:23.259Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:17:23.451Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T20:17:23.457Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:17:57.302Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 22ms","timestamp":"2025-10-10T20:17:57.327Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:17:57.336Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 28ms","timestamp":"2025-10-10T20:17:57.367Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:17:57.650Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 21ms","timestamp":"2025-10-10T20:17:57.672Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:18:30.346Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 200 16bytes - 11ms","timestamp":"2025-10-10T20:18:30.358Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:18:30.374Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1288bytes - 5ms","timestamp":"2025-10-10T20:18:30.380Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:18:31.738Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:18:31.748Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:18:31.758Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T20:18:31.768Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:18:31.954Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T20:18:31.960Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:02.065Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 200 16bytes - 12ms","timestamp":"2025-10-10T20:19:02.078Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:02.098Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1315bytes - 5ms","timestamp":"2025-10-10T20:19:02.104Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:05.395Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:05.412Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 41ms","timestamp":"2025-10-10T20:19:05.437Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 44ms","timestamp":"2025-10-10T20:19:05.457Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:05.721Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 4ms","timestamp":"2025-10-10T20:19:05.727Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/2 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:22.886Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/2 200 16bytes - 10ms","timestamp":"2025-10-10T20:19:22.896Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:22.914Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 8ms","timestamp":"2025-10-10T20:19:22.922Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:24.572Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:24.576Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 13ms","timestamp":"2025-10-10T20:19:24.590Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 21ms","timestamp":"2025-10-10T20:19:24.594Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:19:24.788Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 5ms","timestamp":"2025-10-10T20:19:24.794Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:20:16.518Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:20:16.639Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:20:16.642Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:20:16.642Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:20:16.643Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:20:16.643Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:17.913Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 54ms","timestamp":"2025-10-10T20:23:17.968Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:17.971Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 44ms","timestamp":"2025-10-10T20:23:18.017Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:19.672Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 26ms","timestamp":"2025-10-10T20:23:19.698Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:22.818Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:22.825Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 26ms","timestamp":"2025-10-10T20:23:22.846Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 39ms","timestamp":"2025-10-10T20:23:22.864Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:23.051Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T20:23:23.058Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:29.800Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 200 16bytes - 29ms","timestamp":"2025-10-10T20:23:29.830Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:29.855Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1314bytes - 7ms","timestamp":"2025-10-10T20:23:29.863Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:34.920Z"}
+{"context":"HTTP","level":"info","message":"PATCH /v1/api/calendar/3 200 16bytes - 14ms","timestamp":"2025-10-10T20:23:34.935Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:23:34.954Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1315bytes - 8ms","timestamp":"2025-10-10T20:23:34.963Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:02.032Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:02.038Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 48ms","timestamp":"2025-10-10T20:24:02.081Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 56ms","timestamp":"2025-10-10T20:24:02.095Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:02.443Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 22ms","timestamp":"2025-10-10T20:24:02.470Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:07.353Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 24ms","timestamp":"2025-10-10T20:24:07.378Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:07.380Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 22ms","timestamp":"2025-10-10T20:24:07.404Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:07.589Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T20:24:07.595Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:21.048Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:21.055Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 45ms","timestamp":"2025-10-10T20:24:21.093Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 45ms","timestamp":"2025-10-10T20:24:21.101Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:21.375Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 11ms","timestamp":"2025-10-10T20:24:21.387Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:54.785Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:54.789Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 43ms","timestamp":"2025-10-10T20:24:54.829Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 52ms","timestamp":"2025-10-10T20:24:54.841Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:24:55.219Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 25ms","timestamp":"2025-10-10T20:24:55.246Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:01.556Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:01.560Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 23ms","timestamp":"2025-10-10T20:25:01.580Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 28ms","timestamp":"2025-10-10T20:25:01.589Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:01.820Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 4ms","timestamp":"2025-10-10T20:25:01.824Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:17.645Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:17.659Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 31ms","timestamp":"2025-10-10T20:25:17.676Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 31ms","timestamp":"2025-10-10T20:25:17.690Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:18.009Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 5ms","timestamp":"2025-10-10T20:25:18.014Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:20.523Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:20.537Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 34ms","timestamp":"2025-10-10T20:25:20.559Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 33ms","timestamp":"2025-10-10T20:25:20.573Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:20.757Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 3ms","timestamp":"2025-10-10T20:25:20.762Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:30.310Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:30.322Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 36ms","timestamp":"2025-10-10T20:25:30.352Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 69ms","timestamp":"2025-10-10T20:25:30.391Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:30.648Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 9ms","timestamp":"2025-10-10T20:25:30.658Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:34.019Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:34.030Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 58ms","timestamp":"2025-10-10T20:25:34.077Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 61ms","timestamp":"2025-10-10T20:25:34.093Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:34.707Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 5ms","timestamp":"2025-10-10T20:25:34.714Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:36.770Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:36.779Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:25:36.791Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T20:25:36.799Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:37.005Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 5ms","timestamp":"2025-10-10T20:25:37.012Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:45.309Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:45.319Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T20:25:45.330Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 25ms","timestamp":"2025-10-10T20:25:45.344Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:45.562Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 5ms","timestamp":"2025-10-10T20:25:45.568Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:52.436Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:25:52.456Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:52.458Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:25:52.478Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:25:52.705Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T20:25:52.712Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:12.059Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:12.063Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 10ms","timestamp":"2025-10-10T20:26:12.074Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 921bytes - 18ms","timestamp":"2025-10-10T20:26:12.077Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/veterinarian-shedules?date_appointment=2025-10-10 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:27.317Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/veterinarian-shedules?date_appointment=2025-10-10 200 36bytes - 11ms","timestamp":"2025-10-10T20:26:27.329Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/veterinarian-shedules?date_appointment=2025-10-13 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:32.169Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/veterinarian-shedules?date_appointment=2025-10-13 200 1178bytes - 18ms","timestamp":"2025-10-10T20:26:32.188Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:49.209Z"}
+{"context":"CitasService","level":"info","message":"🚀 Iniciando creación de cita","timestamp":"2025-10-10T20:26:49.220Z"}
+{"context":"CitasService","level":"info","message":"📋 Data recibida: {\"date_appointment\":\"2025-10-13\",\"day\":\"martes\",\"reason\":\"TEST CITA MEDICA\",\"reprograming\":false,\"state_payment\":\"pendiente\",\"pet_id\":1,\"veterinarian_id\":\"e32c1605-0440-47b0-86a8-b257e32b9bd1\",\"monto\":50,\"adelanto\":25,\"metodo_pago\":\"EFECTIVO\",\"selected_segment_times\":[{\"segment_time_id\":\"1\"}]}","timestamp":"2025-10-10T20:26:49.221Z"}
+{"context":"CitasService","level":"info","message":"👤 User ID: 5a9d7233-eb62-4064-a6c6-daa88c5549db","timestamp":"2025-10-10T20:26:49.222Z"}
+{"context":"CitasService","level":"info","message":"💉 Creando cita...","timestamp":"2025-10-10T20:26:49.223Z"}
+{"context":"CitasService","level":"info","message":"✅ Cita guardada con ID: 4","timestamp":"2025-10-10T20:26:49.234Z"}
+{"context":"CitasService","level":"info","message":"📋 Creando registro médico...","timestamp":"2025-10-10T20:26:49.235Z"}
+{"context":"CitasService","level":"info","message":"✅ Registro médico guardado","timestamp":"2025-10-10T20:26:49.239Z"}
+{"context":"CitasService","level":"info","message":"💰 Creando pago...","timestamp":"2025-10-10T20:26:49.239Z"}
+{"context":"CitasService","level":"info","message":"✅ Pago guardado","timestamp":"2025-10-10T20:26:49.243Z"}
+{"context":"CitasService","level":"info","message":"⏰ Guardando 1 horarios...","timestamp":"2025-10-10T20:26:49.244Z"}
+{"context":"CitasService","level":"info","message":" → Horario ID: 1","timestamp":"2025-10-10T20:26:49.244Z"}
+{"context":"CitasService","level":"info","message":"✅ Todos los horarios guardados","timestamp":"2025-10-10T20:26:49.251Z"}
+{"context":"CitasService","level":"info","message":"🎉 Cita creada exitosamente","timestamp":"2025-10-10T20:26:49.252Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:49.258Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas 200 365bytes - 53ms","timestamp":"2025-10-10T20:26:49.262Z"}
+{"context":"CitasService","level":"info","message":"🚀 Iniciando creación de cita","timestamp":"2025-10-10T20:26:49.273Z"}
+{"context":"CitasService","level":"info","message":"📋 Data recibida: {\"date_appointment\":\"2025-10-13\",\"day\":\"martes\",\"reason\":\"TEST CITA MEDICA\",\"reprograming\":false,\"state_payment\":\"pendiente\",\"pet_id\":1,\"veterinarian_id\":\"e32c1605-0440-47b0-86a8-b257e32b9bd1\",\"monto\":50,\"adelanto\":25,\"metodo_pago\":\"EFECTIVO\",\"selected_segment_times\":[{\"segment_time_id\":\"1\"}]}","timestamp":"2025-10-10T20:26:49.274Z"}
+{"context":"CitasService","level":"info","message":"👤 User ID: 5a9d7233-eb62-4064-a6c6-daa88c5549db","timestamp":"2025-10-10T20:26:49.275Z"}
+{"context":"CitasService","level":"info","message":"💉 Creando cita...","timestamp":"2025-10-10T20:26:49.277Z"}
+{"context":"CitasService","level":"info","message":"✅ Cita guardada con ID: 5","timestamp":"2025-10-10T20:26:49.282Z"}
+{"context":"CitasService","level":"info","message":"📋 Creando registro médico...","timestamp":"2025-10-10T20:26:49.282Z"}
+{"context":"CitasService","level":"info","message":"✅ Registro médico guardado","timestamp":"2025-10-10T20:26:49.286Z"}
+{"context":"CitasService","level":"info","message":"💰 Creando pago...","timestamp":"2025-10-10T20:26:49.287Z"}
+{"context":"CitasService","level":"info","message":"✅ Pago guardado","timestamp":"2025-10-10T20:26:49.292Z"}
+{"context":"CitasService","level":"info","message":"⏰ Guardando 1 horarios...","timestamp":"2025-10-10T20:26:49.293Z"}
+{"context":"CitasService","level":"info","message":" → Horario ID: 1","timestamp":"2025-10-10T20:26:49.293Z"}
+{"context":"CitasService","level":"info","message":"✅ Todos los horarios guardados","timestamp":"2025-10-10T20:26:49.297Z"}
+{"context":"CitasService","level":"info","message":"🎉 Cita creada exitosamente","timestamp":"2025-10-10T20:26:49.298Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas 200 365bytes - 42ms","timestamp":"2025-10-10T20:26:49.300Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:26:54.016Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 2547bytes - 7ms","timestamp":"2025-10-10T20:26:54.024Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:27:23.117Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 14ms","timestamp":"2025-10-10T20:27:23.134Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:27:23.136Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 18ms","timestamp":"2025-10-10T20:27:23.155Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:27:23.435Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:27:23.437Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 4ms","timestamp":"2025-10-10T20:27:23.442Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 1751bytes - 16ms","timestamp":"2025-10-10T20:27:23.452Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:27:27.817Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 6ms","timestamp":"2025-10-10T20:27:27.823Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:30.281Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:30.289Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 51ms","timestamp":"2025-10-10T20:28:30.335Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 81ms","timestamp":"2025-10-10T20:28:30.371Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:30.917Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:30.945Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 32ms","timestamp":"2025-10-10T20:28:30.978Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 70ms","timestamp":"2025-10-10T20:28:30.988Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:46.344Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:46.367Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 38ms","timestamp":"2025-10-10T20:28:46.382Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 28ms","timestamp":"2025-10-10T20:28:46.399Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:46.932Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:46.940Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 24ms","timestamp":"2025-10-10T20:28:46.960Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 25ms","timestamp":"2025-10-10T20:28:46.965Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:50.196Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:50.201Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:28:50.216Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 29ms","timestamp":"2025-10-10T20:28:50.231Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:50.524Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:50.532Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 3ms","timestamp":"2025-10-10T20:28:50.535Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 27ms","timestamp":"2025-10-10T20:28:50.553Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:53.618Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:53.623Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 22ms","timestamp":"2025-10-10T20:28:53.641Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 23ms","timestamp":"2025-10-10T20:28:53.647Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:53.899Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:28:53.905Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 13ms","timestamp":"2025-10-10T20:28:53.913Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 10ms","timestamp":"2025-10-10T20:28:53.917Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:05.451Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:05.458Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:29:05.472Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 26ms","timestamp":"2025-10-10T20:29:05.484Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:06.016Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:06.031Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 39ms","timestamp":"2025-10-10T20:29:06.071Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 61ms","timestamp":"2025-10-10T20:29:06.083Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:08.522Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:08.525Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 23ms","timestamp":"2025-10-10T20:29:08.546Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 26ms","timestamp":"2025-10-10T20:29:08.552Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:08.844Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:08.849Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 10ms","timestamp":"2025-10-10T20:29:08.860Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 18ms","timestamp":"2025-10-10T20:29:08.864Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:28.807Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:28.823Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 32ms","timestamp":"2025-10-10T20:29:28.840Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 21ms","timestamp":"2025-10-10T20:29:28.845Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:29.126Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:29.129Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 5ms","timestamp":"2025-10-10T20:29:29.136Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 14ms","timestamp":"2025-10-10T20:29:29.142Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:29:31.861Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 12ms","timestamp":"2025-10-10T20:29:31.873Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:22.690Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:22.694Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T20:30:22.712Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 24ms","timestamp":"2025-10-10T20:30:22.719Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:22.954Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 16ms","timestamp":"2025-10-10T20:30:22.972Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:40.307Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:40.311Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 17ms","timestamp":"2025-10-10T20:30:40.324Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 22ms","timestamp":"2025-10-10T20:30:40.333Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:40.556Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 6ms","timestamp":"2025-10-10T20:30:40.563Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:49.233Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:49.249Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 59ms","timestamp":"2025-10-10T20:30:49.295Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 56ms","timestamp":"2025-10-10T20:30:49.306Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:30:49.588Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 9ms","timestamp":"2025-10-10T20:30:49.599Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:15.074Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:15.081Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 29ms","timestamp":"2025-10-10T20:32:15.110Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 37ms","timestamp":"2025-10-10T20:32:15.114Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:15.428Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 11ms","timestamp":"2025-10-10T20:32:15.439Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:39.185Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:39.194Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 33ms","timestamp":"2025-10-10T20:32:39.221Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 38ms","timestamp":"2025-10-10T20:32:39.235Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:39.615Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 18ms","timestamp":"2025-10-10T20:32:39.635Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:48.217Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:48.223Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 36ms","timestamp":"2025-10-10T20:32:48.254Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 38ms","timestamp":"2025-10-10T20:32:48.262Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:48.817Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/roles?page=1&limit=5&search= 304 0bytes - 10ms","timestamp":"2025-10-10T20:32:48.828Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:50.943Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:50.944Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 2ms","timestamp":"2025-10-10T20:32:50.947Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 11ms","timestamp":"2025-10-10T20:32:50.954Z"}
+{"context":"HTTP","level":"info","message":"DELETE /v1/api/citas/4 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:32:58.882Z"}
+{"context":"HTTP","level":"warn","message":"DELETE /v1/api/citas/4 404 156bytes - 3ms","timestamp":"2025-10-10T20:32:58.885Z"}
+{"context":"HTTP","level":"info","message":"DELETE /v1/api/citas/5 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:33:08.145Z"}
+{"context":"HTTP","level":"warn","message":"DELETE /v1/api/citas/5 404 156bytes - 1ms","timestamp":"2025-10-10T20:33:08.147Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:33:49.265Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:33:49.392Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:33:49.394Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:33:49.395Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:33:49.395Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:33:49.396Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:33:52.981Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:33:53.207Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:33:53.211Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:33:53.212Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:33:53.213Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:33:53.213Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:04.745Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:04.945Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:04.949Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:04.951Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:04.951Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:04.952Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:12.204Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:12.346Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:12.349Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:12.351Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:12.351Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:12.352Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:15.804Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:15.907Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:15.909Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:15.910Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:15.910Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:15.911Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:19.793Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:19.919Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:19.921Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:19.922Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:19.922Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:19.923Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:23.940Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:24.125Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:24.131Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:24.134Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:24.137Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:24.138Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:26.025Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:26.213Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:26.216Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:26.218Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:26.219Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:26.220Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:46.240Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:46.384Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:46.387Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:46.387Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:46.388Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:46.389Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:34:57.054Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:34:57.221Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:34:57.224Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:34:57.225Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:34:57.226Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:34:57.227Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:35:00.211Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:35:00.480Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:35:00.487Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:35:00.490Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:35:00.492Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:35:00.493Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:35:03.548Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:35:03.708Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:35:03.711Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:35:03.712Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:35:03.713Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:35:03.714Z"}
+{"context":"HTTP","level":"info","message":"DELETE /v1/api/citas/4 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:35:06.509Z"}
+{"context":"CitasService","level":"info","message":"🗑️ Iniciando eliminación de cita ID: 4","timestamp":"2025-10-10T20:35:06.512Z"}
+{"context":"CitasService","level":"info","message":"✅ Cita encontrada: 4","timestamp":"2025-10-10T20:35:06.522Z"}
+{"context":"CitasService","level":"info","message":"🗑️ Eliminando horarios...","timestamp":"2025-10-10T20:35:06.522Z"}
+{"context":"CitasService","level":"info","message":"✅ Horarios eliminados","timestamp":"2025-10-10T20:35:06.526Z"}
+{"context":"CitasService","level":"info","message":"🗑️ Eliminando pagos...","timestamp":"2025-10-10T20:35:06.526Z"}
+{"context":"CitasService","level":"info","message":"✅ Pagos eliminados","timestamp":"2025-10-10T20:35:06.528Z"}
+{"context":"CitasService","level":"info","message":"🗑️ Eliminando cita...","timestamp":"2025-10-10T20:35:06.529Z"}
+{"context":"CitasService","level":"info","message":"✅ Cita eliminada","timestamp":"2025-10-10T20:35:06.531Z"}
+{"context":"CitasService","level":"info","message":"🎉 Cita eliminada exitosamente (historial médico conservado)","timestamp":"2025-10-10T20:35:06.532Z"}
+{"context":"HTTP","level":"info","message":"DELETE /v1/api/citas/4 200 41bytes - 33ms","timestamp":"2025-10-10T20:35:06.542Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:35:06.586Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 1336bytes - 17ms","timestamp":"2025-10-10T20:35:06.603Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:39:12.697Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:39:12.828Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:39:12.830Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:39:12.831Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:39:12.831Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:39:12.832Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:39:18.299Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:39:18.424Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:39:18.426Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:39:18.427Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:39:18.427Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:39:18.428Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:39:36.727Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:39:36.935Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:39:39.317Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:39:39.446Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:39:39.452Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:39:39.453Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:39:39.454Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:39:39.455Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:45:28.090Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:45:28.229Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:45:28.233Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:45:28.234Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:45:28.234Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:45:28.235Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:45:34.039Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T20:45:38.986Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T20:45:39.164Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T20:45:39.167Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T20:45:39.168Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T20:45:39.169Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T20:45:39.169Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:45:44.421Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:45:44.443Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 47ms","timestamp":"2025-10-10T20:45:44.470Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 45ms","timestamp":"2025-10-10T20:45:44.490Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:45:44.845Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:45:44.849Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 6ms","timestamp":"2025-10-10T20:45:44.856Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 21ms","timestamp":"2025-10-10T20:45:44.867Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:46:36.628Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:46:36.639Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 33ms","timestamp":"2025-10-10T20:46:36.663Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 38ms","timestamp":"2025-10-10T20:46:36.678Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:46:36.948Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:46:36.952Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 9ms","timestamp":"2025-10-10T20:46:36.962Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 1336bytes - 17ms","timestamp":"2025-10-10T20:46:36.966Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:46:39.079Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 1931bytes - 18ms","timestamp":"2025-10-10T20:46:39.097Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/veterinarian-shedules?date_appointment=2025-10-13 - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:47:18.221Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/veterinarian-shedules?date_appointment=2025-10-13 200 1177bytes - 17ms","timestamp":"2025-10-10T20:47:18.239Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:49:15.244Z"}
+{"context":"CitasService","level":"info","message":"🚀 Iniciando creación de cita","timestamp":"2025-10-10T20:49:15.281Z"}
+{"context":"CitasService","level":"info","message":"📋 Data recibida: {\"date_appointment\":\"2025-10-13\",\"day\":\"martes\",\"reason\":\"TESTING\",\"reprograming\":false,\"state_payment\":\"pendiente\",\"pet_id\":2,\"veterinarian_id\":\"e32c1605-0440-47b0-86a8-b257e32b9bd1\",\"monto\":50,\"adelanto\":25,\"metodo_pago\":\"EFECTIVO\",\"selected_segment_times\":[{\"segment_time_id\":\"4\"}]}","timestamp":"2025-10-10T20:49:15.281Z"}
+{"context":"CitasService","level":"info","message":"👤 User ID: 5a9d7233-eb62-4064-a6c6-daa88c5549db","timestamp":"2025-10-10T20:49:15.282Z"}
+{"context":"CitasService","level":"info","message":"💉 Creando cita...","timestamp":"2025-10-10T20:49:15.287Z"}
+{"context":"CitasService","level":"info","message":"✅ Cita guardada con ID: 6","timestamp":"2025-10-10T20:49:15.307Z"}
+{"context":"CitasService","level":"info","message":"📋 Creando registro médico...","timestamp":"2025-10-10T20:49:15.308Z"}
+{"context":"CitasService","level":"info","message":"✅ Registro médico guardado","timestamp":"2025-10-10T20:49:15.313Z"}
+{"context":"CitasService","level":"info","message":"💰 Creando pago...","timestamp":"2025-10-10T20:49:15.314Z"}
+{"context":"CitasService","level":"info","message":"✅ Pago guardado","timestamp":"2025-10-10T20:49:15.319Z"}
+{"context":"CitasService","level":"info","message":"⏰ Guardando 1 horarios...","timestamp":"2025-10-10T20:49:15.320Z"}
+{"context":"CitasService","level":"info","message":" → Horario ID: 4","timestamp":"2025-10-10T20:49:15.321Z"}
+{"context":"CitasService","level":"info","message":"✅ Todos los horarios guardados","timestamp":"2025-10-10T20:49:15.327Z"}
+{"context":"CitasService","level":"info","message":"🎉 Cita creada exitosamente","timestamp":"2025-10-10T20:49:15.328Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/citas 200 356bytes - 88ms","timestamp":"2025-10-10T20:49:15.334Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:49:22.188Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T20:49:22.209Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:49:22.210Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T20:49:22.231Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:49:22.536Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:49:22.538Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 9ms","timestamp":"2025-10-10T20:49:22.548Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 200 1741bytes - 15ms","timestamp":"2025-10-10T20:49:22.551Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:49:27.304Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 200 2541bytes - 7ms","timestamp":"2025-10-10T20:49:27.312Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:50:01.941Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:50:01.944Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:50:01.962Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 24ms","timestamp":"2025-10-10T20:50:01.968Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:50:02.255Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:50:02.261Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 21ms","timestamp":"2025-10-10T20:50:02.287Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 40ms","timestamp":"2025-10-10T20:50:02.296Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:50:09.818Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 7ms","timestamp":"2025-10-10T20:50:09.825Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:50:13.715Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 19ms","timestamp":"2025-10-10T20:50:13.735Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:13.669Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 8ms","timestamp":"2025-10-10T20:53:13.678Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:13.995Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 22ms","timestamp":"2025-10-10T20:53:14.017Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:14.430Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 304 0bytes - 15ms","timestamp":"2025-10-10T20:53:14.446Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:15.805Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 10ms","timestamp":"2025-10-10T20:53:15.816Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:16.351Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 11ms","timestamp":"2025-10-10T20:53:16.363Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:16.675Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 304 0bytes - 13ms","timestamp":"2025-10-10T20:53:16.689Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T20:53:16.870Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 304 0bytes - 12ms","timestamp":"2025-10-10T20:53:16.883Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T21:54:57.981Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 3ms","timestamp":"2025-10-10T21:54:57.984Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T21:54:57.985Z"}
+{"context":"HTTP","level":"warn","message":"GET /v1/api/auth/check-auth-status 401 25bytes - 4ms","timestamp":"2025-10-10T21:54:57.989Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T21:55:00.122Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login 200 933bytes - 134ms","timestamp":"2025-10-10T21:55:00.256Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T21:55:00.306Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 13ms","timestamp":"2025-10-10T21:55:00.320Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T22:46:29.388Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 20ms","timestamp":"2025-10-10T22:46:29.409Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T22:46:30.609Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 30ms","timestamp":"2025-10-10T22:46:30.640Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T22:51:12.160Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T22:51:12.301Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T22:51:12.304Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T22:51:12.304Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T22:51:12.305Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T22:51:12.305Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T22:52:03.816Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T22:52:03.983Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T22:52:03.988Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T22:52:03.990Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T22:52:03.991Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T22:52:03.992Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:33:52.072Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:33:52.260Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:33:52.263Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:33:52.264Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:33:52.265Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:33:52.265Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:33:57.422Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:33:57.549Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:33:57.551Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:33:57.552Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:33:57.552Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:33:57.553Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:34:01.996Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:34:02.190Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:34:02.193Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:34:02.195Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:34:02.196Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:34:02.197Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:34:06.909Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:34:07.021Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:34:07.023Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:34:07.024Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:34:07.024Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:34:07.024Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:34:10.667Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:34:10.801Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:34:10.804Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:34:10.805Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:34:10.806Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:34:10.807Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:34:12.944Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:34:13.102Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:34:13.105Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:34:13.107Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:34:13.108Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:34:13.108Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:34:16.590Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:34:18.571Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:34:18.848Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:34:18.853Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:34:18.855Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:34:18.856Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:34:18.857Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-10T23:42:18.487Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-10T23:42:18.608Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-10T23:42:18.611Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-10T23:42:18.612Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-10T23:42:18.612Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-10T23:42:18.613Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-10T23:43:27.178Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 27ms","timestamp":"2025-10-10T23:43:27.206Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-11T02:36:42.074Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/calendar 304 0bytes - 8ms","timestamp":"2025-10-11T02:36:42.083Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T02:37:12.255Z"}
+{"context":"SERVER","level":"error","message":"Database connection failed","stack":"MissingPrimaryColumnError: Entity \"VacunasHorariasEntity\" does not have a primary column. Primary column is required to have in all your entities. Use @PrimaryColumn decorator to add a primary column to your entity.\n    at EntityMetadataValidator.validate (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/typeorm@0.3.21_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.13.9_typescript@5.8.2_/node_modules/typeorm/metadata-builder/src/metadata-builder/EntityMetadataValidator.ts:59:19)\n    at <anonymous> (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/typeorm@0.3.21_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.13.9_typescript@5.8.2_/node_modules/typeorm/metadata-builder/src/metadata-builder/EntityMetadataValidator.ts:43:18)\n    at Array.forEach (<anonymous>)\n    at EntityMetadataValidator.validateMany (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/typeorm@0.3.21_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.13.9_typescript@5.8.2_/node_modules/typeorm/metadata-builder/src/metadata-builder/EntityMetadataValidator.ts:42:25)\n    at DataSource.buildMetadatas (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/typeorm@0.3.21_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.13.9_typescript@5.8.2_/node_modules/typeorm/data-source/src/data-source/DataSource.ts:732:33)\n    at async DataSource.initialize (/home/espadarota/ti/nodets-course/node-veterinaria/node_modules/.pnpm/typeorm@0.3.21_reflect-metadata@0.2.2_ts-node@10.9.2_@types+node@22.13.9_typescript@5.8.2_/node_modules/typeorm/data-source/src/data-source/DataSource.ts:263:13)\n    at async Server.connectDB (/home/espadarota/ti/nodets-course/node-veterinaria/src/core/server.ts:116:27)\n    at async Server.start (/home/espadarota/ti/nodets-course/node-veterinaria/src/core/server.ts:46:5)","timestamp":"2025-10-11T02:37:12.395Z"}

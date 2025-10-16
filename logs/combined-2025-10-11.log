@@ -1,0 +1,115 @@
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:02:12.045Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:02:12.226Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:02:12.228Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:02:12.229Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:02:12.230Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:02:12.230Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:03:05.367Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:03:05.499Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:03:05.502Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:03:05.502Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:03:05.503Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:03:05.503Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:17:24.394Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:17:25.987Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:17:26.108Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:17:26.111Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:17:26.111Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:17:26.112Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:17:26.112Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:23:21.106Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:23:21.269Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:23:21.272Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:23:21.273Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:23:21.273Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:23:21.274Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:23:25.716Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:23:25.865Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:23:25.868Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:23:25.869Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:23:25.870Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:23:25.870Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:23:28.411Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:23:28.533Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:23:28.535Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:23:28.536Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:23:28.537Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:23:28.537Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:23:34.790Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:23:34.988Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:23:34.991Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:23:34.992Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:23:34.992Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:23:34.993Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:25:31.779Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:25:34.221Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:25:34.355Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:25:34.357Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:25:34.358Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:25:34.359Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:25:34.359Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:26:07.403Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:26:09.820Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:26:10.038Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:26:10.044Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:26:10.045Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:26:10.045Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:26:10.046Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:26:16.728Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:26:16.837Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:26:16.840Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:26:16.840Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:26:16.841Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:26:16.841Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:26:22.412Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:26:22.565Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:26:22.569Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:26:22.570Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:26:22.570Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:26:22.571Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:27:01.392Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:27:01.517Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:27:01.520Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:27:01.521Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:27:01.521Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:27:01.521Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:41:30.558Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:41:30.680Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:41:30.682Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:41:30.683Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:41:30.684Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:41:30.685Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:42:20.395Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:42:20.542Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:42:20.545Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:42:20.546Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:42:20.547Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:42:20.547Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:51:04.148Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:51:04.301Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:51:04.303Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:51:04.304Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:51:04.305Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:51:04.305Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T18:54:46.218Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T18:54:46.352Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T18:54:46.354Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T18:54:46.355Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T18:54:46.355Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T18:54:46.356Z"}
+{"context":"SERVER","level":"info","message":"Initializing database connection...","timestamp":"2025-10-11T19:01:27.593Z"}
+{"context":"SERVER","level":"info","message":"✅ Database connected successfully","timestamp":"2025-10-11T19:01:27.730Z"}
+{"context":"SERVER","level":"info","message":"✅ Server running on port 3000","timestamp":"2025-10-11T19:01:27.733Z"}
+{"context":"SERVER","level":"info","message":"Swagger Documentation: http://localhost:3000/api/docs","timestamp":"2025-10-11T19:01:27.734Z"}
+{"context":"SERVER","level":"info","message":"Swagger JSON: http://localhost:3000/api/docs/swagger.json","timestamp":"2025-10-11T19:01:27.734Z"}
+{"context":"SERVER","level":"info","message":"Server is ready to accept connections","timestamp":"2025-10-11T19:01:27.734Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-11T19:01:32.002Z"}
+{"context":"HTTP","level":"info","message":"POST /v1/api/auth/login 200 933bytes - 164ms","timestamp":"2025-10-11T19:01:32.167Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-11T19:01:32.245Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 21ms","timestamp":"2025-10-11T19:01:32.267Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-11T19:01:35.832Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-11T19:01:35.840Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas?page=1&limit=10&petName=&species=&veterinarianName=&state_payment=&dateFrom=&dateTo= 304 0bytes - 19ms","timestamp":"2025-10-11T19:01:35.852Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/citas/pacientes 304 0bytes - 15ms","timestamp":"2025-10-11T19:01:35.856Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status - ::ffff:127.0.0.1 - Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0","timestamp":"2025-10-11T19:01:41.410Z"}
+{"context":"HTTP","level":"info","message":"GET /v1/api/auth/check-auth-status 200 933bytes - 27ms","timestamp":"2025-10-11T19:01:41.438Z"}

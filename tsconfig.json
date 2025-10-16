@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    // Path Aliases - ¡Aquí está la magia! 🎯
+    "baseUrl": ".",
+    "paths": {
+      "@config/*": ["src/config/*"],
+      "@core/*": ["src/core/*"],
+      "@modules/*": ["src/modules/*"],
+      "@shared/*": ["src/shared/*"],
+      "@migrations/*": ["src/migrations/*"],
+
+      // Aliases específicos para módulos
+      "@auth/*": ["src/modules/auth/*"],
+      "@citas/*": ["src/modules/citas/*"],
+      "@pacientes/*": ["src/modules/pacientes/*"],
+      "@roles/*": ["src/modules/roles/*"],
+      "@user/*": ["src/modules/user/*"],
+      "@veterinario/*": ["src/modules/veterinario/*"],
+      "@images/*": ["src/modules/images/*"],
+      "@seed/*": ["src/modules/seed/*"],
+
+      // Aliases para tipos comunes
+      "@errors/*": ["src/shared/errors/*"],
+      "@enums/*": ["src/shared/enums/*"],
+      "@middlewares/*": ["src/shared/middlewares/*"],
+      "@dtos/*": ["src/shared/dtos/*"],
+      "@response/*": ["src/shared/response/*"],
+      "@services/*": ["src/shared/services/*"],
+      "@logger/*": ["src/shared/logger/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
