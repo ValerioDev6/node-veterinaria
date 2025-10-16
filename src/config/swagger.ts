@@ -23,7 +23,7 @@ const swaggerDefinition = {
       description: 'Servidor de Desarrollo',
     },
     {
-      url: 'https://api.veterinaria.com',
+      url: 'https://node-veterinaria.onrender.com/v1',
       description: 'Servidor de Producción',
     },
   ],

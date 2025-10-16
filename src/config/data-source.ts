@@ -1,15 +1,18 @@
-import * as dotenv from 'dotenv';
-import { dirname, join } from 'path';
-import { DataSource, type DataSourceOptions } from 'typeorm';
-import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
-import { fileURLToPath } from 'url';
+import * as dotenv from 'dotenv'
+import { dirname, join } from 'path'
+import { DataSource, type DataSourceOptions } from 'typeorm'
+import { SnakeNamingStrategy } from 'typeorm-naming-strategies'
+import { fileURLToPath } from 'url'
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 dotenv.config({
-  path: process.env.NODE_ENV !== undefined ? `.${process.env.NODE_ENV.trim()}.env` : '.env',
-});
+  path:
+    process.env.NODE_ENV !== undefined
+      ? `.${process.env.NODE_ENV.trim()}.env`
+      : '.env',
+})
 
 const config: DataSourceOptions = {
   type: 'mysql',
@@ -22,8 +25,11 @@ const config: DataSourceOptions = {
   migrations: [join(__dirname, '../migrations/*{.ts,.js}')],
   synchronize: false,
   migrationsRun: true,
+  ssl: {
+    rejectUnauthorized: false, // Necesario para Aiven/servicios en la nube
+  },
   logging: false,
   namingStrategy: new SnakeNamingStrategy(),
-};
+}
 
-export const AppDataSource: DataSource = new DataSource(config);
+export const AppDataSource: DataSource = new DataSource(config)
