@@ -33,7 +33,10 @@ export class Server {
     // CORS configuration
     this.app.use(
       cors({
-        origin: 'http://localhost:4200',
+        origin: [
+          'http://localhost:4200',
+          'https://angular-veterinaria.onrender.com',
+        ],
         methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
         allowedHeaders: ['Content-Type', 'Authorization'],
       })
